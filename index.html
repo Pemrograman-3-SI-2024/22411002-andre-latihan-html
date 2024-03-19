@@ -3,25 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>HTML Pemrograman 3</title>
   </head>
   <body>
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
+    <div>
+      <h1 class="form-header">Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+    </div>
     <b>Test</b>
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quos
       ipsam consequuntur facilis consequatur distinctio.
     </p>
     <a href="input.html">
-      <button>Input data</button>
+      <button class="btn-input">Input data</button>
     </a>
-    <table border="1">
+    <br />
+    <br />
+    <button class="btn-2">Free commercial Trial</button>
+    <br />
+    <br />
+    <table class="my-table">
       <thead>
         <tr>
           <th>Student ID</th>
@@ -30,42 +43,61 @@
           <th>Gender</th>
         </tr>
       </thead>
-      <tr>
-        <td>22411002</td>
-        <td>Andre</td>
-        <td>19</td>
-        <td>Male</td>
-      </tr>
-      <tr>
-        <td>22411003</td>
-        <td>Wendy</td>
-        <td>19</td>
-        <td>Male</td>
-      </tr>
-      <tr>
-        <td>22411009</td>
-        <td>Dimas</td>
-        <td>20</td>
-        <td>Male</td>
-      </tr>
-      <tr>
-        <td>22411030</td>
-        <td>Fadhil</td>
-        <td>26</td>
-        <td>Male</td>
-      </tr>
-      <tr>
-        <td>22411039</td>
-        <td>Raka</td>
-        <td>5</td>
-        <td>Male</td>
-      </tr>
+      <tbody>
+        <tr>
+          <td>22411002</td>
+          <td>Andre</td>
+          <td>19</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>22411003</td>
+          <td>Wendy</td>
+          <td>19</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>22411009</td>
+          <td>Dimas</td>
+          <td>20</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>22411030</td>
+          <td>Fadhil</td>
+          <td>26</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>22411039</td>
+          <td>Raka</td>
+          <td>5</td>
+          <td>Male</td>
+        </tr>
+      </tbody>
     </table>
-    <img src="logo.jpg" />
-    <img
-      src="https://images.unsplash.com/photo-1707344088547-3cf7cea5ca49?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      alt=""
-      width="300"
-    />
+    <img src="logo.jpg" width="300" class="form-image" />
+    <br />
+    <br />
+    <div class="card">
+      <div class="card-image">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo-Lxtty8W_A3DvNpofRowetnYBHNeuxnbmF_2uUQ4IA&s"
+          alt=""
+          width="300"
+        />
+      </div>
+      <div class="card-content">
+        <div class="card-content_title">Ajazz AK820</div>
+        <p class="card-content_price">Rp413.000 <span>-20%</span></p>
+        <p class="card-content_price-discount">Rp516.000</p>
+        <p class="card-content_description">
+          75% Gasket-mounted Bluetooth 5.1/2.4G Wireless & Type-C Wired
+          Mechanical Keyboard
+        </p>
+      </div>
+    </div>
+    <br />
+    <br />
   </body>
 </html>
